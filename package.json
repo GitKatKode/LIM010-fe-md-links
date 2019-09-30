@@ -1,0 +1,24 @@
+{
+  "name": "md-links",
+  "version": "1.0.0",
+  "description": "first library",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitKatKode/LIM010-fe-md-links.git"
+  },
+  "keywords": [
+    "link",
+    "node.js",
+    "library"
+  ],
+  "author": "GitKatKode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GitKatKode/LIM010-fe-md-links/issues"
+  },
+  "homepage": "https://github.com/GitKatKode/LIM010-fe-md-links#readme"
+}
