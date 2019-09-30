@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/GitKatKode/LIM010-fe-md-links/issues"
   },
-  "homepage": "https://github.com/GitKatKode/LIM010-fe-md-links#readme"
+  "homepage": "https://github.com/GitKatKode/LIM010-fe-md-links#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
