@@ -1,5 +1,5 @@
 TN:
-SF:/home/sabrina/Documents/LABORATORIA - LIM010/LIM010-fe-md-links/MyLib/lib/extract-links.js
+SF:/home/sabrina/Documents/LABORATORIA - LIM010/LIM010-fe-md-links/src/extract-links.js
 FN:4,(anonymous_0)
 FN:7,(anonymous_1)
 FN:17,(anonymous_2)
@@ -79,7 +79,37 @@ BRF:10
 BRH:9
 end_of_record
 TN:
-SF:/home/sabrina/Documents/LABORATORIA - LIM010/LIM010-fe-md-links/MyLib/lib/options.js
+SF:/home/sabrina/Documents/LABORATORIA - LIM010/LIM010-fe-md-links/src/md-links.js
+FN:6,(anonymous_0)
+FN:8,(anonymous_1)
+FN:15,(anonymous_2)
+FNF:3
+FNH:3
+FNDA:2,(anonymous_0)
+FNDA:2,(anonymous_1)
+FNDA:1,(anonymous_2)
+DA:4,1
+DA:6,1
+DA:7,2
+DA:8,2
+DA:9,2
+DA:10,2
+DA:12,2
+DA:13,2
+DA:14,1
+DA:15,1
+DA:17,1
+LF:11
+LH:11
+BRDA:9,0,0,2
+BRDA:9,0,1,0
+BRDA:13,1,0,1
+BRDA:13,1,1,1
+BRF:4
+BRH:3
+end_of_record
+TN:
+SF:/home/sabrina/Documents/LABORATORIA - LIM010/LIM010-fe-md-links/src/options.js
 FN:3,(anonymous_0)
 FN:4,(anonymous_1)
 FN:5,(anonymous_2)
@@ -111,34 +141,4 @@ BRDA:11,1,0,14
 BRDA:11,1,1,14
 BRF:4
 BRH:4
-end_of_record
-TN:
-SF:/home/sabrina/Documents/LABORATORIA - LIM010/LIM010-fe-md-links/src/md-links.js
-FN:6,(anonymous_0)
-FN:8,(anonymous_1)
-FN:15,(anonymous_2)
-FNF:3
-FNH:3
-FNDA:2,(anonymous_0)
-FNDA:2,(anonymous_1)
-FNDA:1,(anonymous_2)
-DA:4,1
-DA:6,1
-DA:7,2
-DA:8,2
-DA:9,2
-DA:10,2
-DA:12,2
-DA:13,2
-DA:14,1
-DA:15,1
-DA:17,1
-LF:11
-LH:11
-BRDA:9,0,0,2
-BRDA:9,0,1,0
-BRDA:13,1,0,1
-BRDA:13,1,1,1
-BRF:4
-BRH:3
 end_of_record

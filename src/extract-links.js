@@ -73,6 +73,6 @@ const extractLinksFromMdFiles = (paths) => {
   return links;
 };
 
-module.exports = {
+export {
   theDirExist, getFilePaths, readAllMarkdowns, extractLinks, extractLinksFromMdFiles,
 };

@@ -1,11 +1,14 @@
 {
   "name": "md-links",
   "version": "1.0.0",
-  "description": "first library",
-  "main": "lib/lib/md-links.js",
+  "description": "Markdown LinKs",
+  "main": "lib/md-links.js",
+  "bin": {
+    "md-links": "lib/cli.js"
+  },
   "scripts": {
     "test": "jest --coverage --detectOpenHandles",
-    "eslint": "eslint --ext .js MyLib/test/",
+    "eslint": "eslint --ext .js test/",
     "lint": "npm run eslint",
     "pretest": "npm run lint",
     "build": "babel src -d lib"

@@ -1,9 +1,9 @@
-import { extractLinksFromMdFiles } from '../MyLib/lib/extract-links.js';
-import { validateLinks } from '../MyLib/lib/options.js';
+import { extractLinksFromMdFiles } from './extract-links.js';
+import { validateLinks } from './options.js';
 
 const path = require('path');
 
-export const mdLinks = (thePath, options) => {
+const mdLinks = (thePath, options) => {
   let newPath = thePath;
   return new Promise((resolve) => {
     if (!path.isAbsolute(thePath)) {
@@ -18,3 +18,6 @@ export const mdLinks = (thePath, options) => {
     }
   });
 };
+
+export { mdLinks };
+// module.exports.mdLinks = mdLinks;

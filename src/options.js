@@ -18,12 +18,14 @@ const validateLinks = (arrObj) => {
     }).catch((err) => {
       const newErrObj = {
         ...links,
-        status: err,
+        error: err,
+        status: 'link sin acceso',
         msg: 'fail',
       };
       return newErrObj;
     }));
   return Promise.all(arrayPromises);
 };
+
 
 export { validateLinks };

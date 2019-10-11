@@ -1,10 +1,10 @@
-import { mdLinks } from '../../src/md-links.js';
+import { mdLinks } from '../src/md-links.js';
 
-import { validateLinks } from '../lib/options.js';
+import { validateLinks } from '../src/options.js';
 
 import {
   theDirExist, getFilePaths, readAllMarkdowns, extractLinks, extractLinksFromMdFiles,
-} from '../lib/extract-links.js';
+} from '../src/extract-links.js';
 
 const mock = require('mock-fs');
 
