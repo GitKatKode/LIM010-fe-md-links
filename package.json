@@ -2,9 +2,13 @@
   "name": "md-links",
   "version": "1.0.0",
   "description": "first library",
-  "main": "index.js",
+  "main": "lib/lib/md-links.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage --detectOpenHandles",
+    "eslint": "eslint --ext .js MyLib/test/",
+    "lint": "npm run eslint",
+    "pretest": "npm run lint",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -22,6 +26,38 @@
   },
   "homepage": "https://github.com/GitKatKode/LIM010-fe-md-links#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "@babel/preset-env": "^7.6.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "jest": "^24.9.0",
+    "mock-fs": "^4.10.1",
+    "regenerator-runtime": "^0.13.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "node_modules",
+      "app"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ]
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "acorn": "^7.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "marked": "^0.7.0",
+    "node-fetch": "^2.6.0"
   }
 }
