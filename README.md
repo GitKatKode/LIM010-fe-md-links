@@ -275,6 +275,26 @@ pendientes de tu proyecto anterior.
 - [ ] Modularización
 - [ ] Nomenclatura / Semántica
 - [ ] Linting
+ 
+#### Inherited: 
+
+## HTML y CSS
+
+- [ ] HTML semántico
+- [ ] CSS flexbox
+- [ ] Maquetación
+
+## DOM y Web APIs
+
+- [ ] Manipulación dinámica del DOM
+
+## Firebase
+
+- [ ] Firebase security rules
+
+## Buenas prácticas de desarrollo
+
+- [ ] Modularización
 
 ***
 
