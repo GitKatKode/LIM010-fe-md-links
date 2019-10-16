@@ -276,23 +276,23 @@ pendientes de tu proyecto anterior.
 - [ ] Nomenclatura / Semántica
 - [ ] Linting
  
-#### Inherited: 
+## Inherited: 
 
-## HTML y CSS
+#### HTML y CSS
 
 - [ ] HTML semántico
 - [ ] CSS flexbox
 - [ ] Maquetación
 
-## DOM y Web APIs
+#### DOM y Web APIs
 
 - [ ] Manipulación dinámica del DOM
 
-## Firebase
+#### Firebase
 
 - [ ] Firebase security rules
 
-## Buenas prácticas de desarrollo
+#### Buenas prácticas de desarrollo
 
 - [ ] Modularización
 
